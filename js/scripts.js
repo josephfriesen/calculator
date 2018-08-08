@@ -28,4 +28,14 @@ $(document).ready(function() {
     var outputSentence = stringNum1 + " + " + stringNum2 + " = " + stringResult;
     $("#output").text(outputSentence);
   });
+
+  $("form#sub").submit(function(event) {
+    event.preventDefault();
+    var stringNum1 = $("#sub1").val();
+    var stringNum2 = $("#sub2").val();
+    var result = subtract(parseInt(stringNum1), parseInt(stringNum2));
+    var stringResult = result.toString();
+    var outputSentence = stringNum1 + " - " + stringNum2 + " = " + stringResult;
+    $("#output").text(outputSentence);
+  });
 });
