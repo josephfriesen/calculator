@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Calculator</h1>
+
+      <div class="row">
+
+        <div class="col-md-6">
+          <h5 class="form-header">Addition</h5>
+          <form id="add">
+            <div class="form-group">
+              <label for="add1">1st number:</label>
+              <input id="add1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="add2">2nd number:</label>
+              <input id="add2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Add</button>
+          </form>
+        </div>
+
+      </div>
+
+      <hr width="60%">
+
+      <div class="well" id="output-display">
+        <h4>OUTPUT</h4>
+        <p><span id="output"></span></p>
+      </div>
+
+    </div>
+  </body>
+</html>
