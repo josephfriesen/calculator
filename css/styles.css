@@ -1,5 +1,14 @@
 #output-display {
-  text-align: center;
+  width: 150px;
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  background: lightgrey;
+  padding: 8px 0;
+}
+
+#output-display p {
+  font-size: 8pt;
 }
 
 .form-header {
