@@ -63,4 +63,8 @@ $(document).ready(function() {
       $("#output").prepend(outputSentence);
     };
   });
+
+  $(".eraser").click(function() {
+    $("#output").text("");
+  });
 });
